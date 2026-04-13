@@ -1,0 +1,19 @@
+{
+  "name": "pathfinding-astar",
+  "version": "1.0.0",
+  "description": "A* pathfinding on a 2D grid",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["astar", "pathfinding", "grid", "gamedev"],
+  "author": "Tox",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
